@@ -15,7 +15,7 @@ function proverit1() {
     if (p_ae1 == p_e1) {
         ball += 1;
         answers += "<br><div id='output'>1. Верно </div>";
-    } else { answers += "<br><div class='output'>1. Неверно </div>"; }
+    } else { answers += "<div class='output'>1. Неверно </div>"; }
 
     if (p_ae2 == p_e2) {
         ball += 1;
@@ -25,7 +25,7 @@ function proverit1() {
     if (p_ae3 == p_e3) {
         ball += 1;
         answers += "<br><div id='output'>3. Верно </div>";
-    } else { answers += "<br><div class='output'>3. Неверно </div>"; }
+    } else { answers += "<div class='output'>3. Неверно </div>"; }
 
     if (p_ae4 == p_e4) {
         ball += 1;
