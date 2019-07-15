@@ -297,6 +297,7 @@ width: 29%;
     display: inline-block;
     text-align: center;
     padding:5px;
+    height:25px;
     background: rgba(255, 141, 0, 0.85);
     border-radius: 5px;
 }
