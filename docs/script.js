@@ -14,23 +14,23 @@ function proverit1() {
 
     if (p_ae1 == p_e1) {
         ball += 1;
-        answers += "<br><div id='output'>1. Верно </div>";
-    } else { answers += "<br><div class='output'>1. Неверно </div>"; }
+        answers += "<br><div id='output'>1. Р’РµСЂРЅРѕ </div>";
+    } else { answers += "<br><div class='output'>1. РќРµРІРµСЂРЅРѕ </div>"; }
 
     if (p_ae2 == p_e2) {
         ball += 1;
-        answers += "<div id='output'>2. Верно </div>";
-    } else { answers += "<div class='output'>2. Неверно </div>"; }
+        answers += "<div id='output'>2. Р’РµСЂРЅРѕ </div>";
+    } else { answers += "<div class='output'>2. РќРµРІРµСЂРЅРѕ </div>"; }
 
     if (p_ae3 == p_e3) {
         ball += 1;
-        answers += "<br><div id='output'>3. Верно </div>";
-    } else { answers += "<br><div class='output'>3. Неверно </div>"; }
+        answers += "<br><div id='output'>3. Р’РµСЂРЅРѕ </div>";
+    } else { answers += "<br><div class='output'>3. РќРµРІРµСЂРЅРѕ </div>"; }
 
     if (p_ae4 == p_e4) {
         ball += 1;
-        answers += "<div id='output'>4. Верно </div>";
-    } else { answers += "<div class='output'>4. Неверно </div>"; }
+        answers += "<div id='output'>4. Р’РµСЂРЅРѕ </div>";
+    } else { answers += "<div class='output'>4. РќРµРІРµСЂРЅРѕ </div>"; }
 
-    document.getElementById('rez').innerHTML = "<div class = 'rezult'>Количество правильных ответов - " + ball + "</div></div class='output-bar'>" + answers + "</div>";
+    document.getElementById('rez').innerHTML = "<div class = 'rezult'>РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂР°РІРёР»СЊРЅС‹С… РѕС‚РІРµС‚РѕРІ - " + ball + "</div></div class='output-bar'>" + answers + "</div>";
 }
