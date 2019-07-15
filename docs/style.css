@@ -302,11 +302,11 @@ width: 29%;
     border-radius: 5px;
 }
 
-    .header-inner ul li #1 {
+    .header-inner ul > #1 {
         background: rgba(99, 255, 0, 0.85);
     }
 
-    .header-inner ul li #3 {
+    .header-inner ul > #3 {
         background: rgba(255, 62, 0, 0.85);
     }
 
