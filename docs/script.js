@@ -25,22 +25,12 @@ function proverit1() {
     if (p_ae3 == p_e3) {
         ball += 1;
         answers += "<br><div class='output'>3. Верно </div>";
-    } else {
-        answers += <br><div class='output'>3. Неверно </div>"; }
-    
-    if (p_ae4 == p_e4) {
-                ball += 1;
-            answers += "<div class='output'>4. Верно </div>";
-    } else {answers += "<div class='output'>4. Неверно </div>"; }
-        
-    document.getElementById('rez').innerHTML = "<div class='rezult'>Количество правильных ответов - " + ball + "</div><div class='output-bar'>" + answers + "</div>";
-}
-    } else { answers += <br><div class='output'>3. Неверно </div>"; }
+    } else { answers += "<br><div class='output'>3. Неверно </div>"; }
 
     if (p_ae4 == p_e4) {
         ball += 1;
         answers += "<div class='output'>4. Верно </div>";
     } else { answers += "<div class='output'>4. Неверно </div>"; }
 
-    document.getElementById('rez').innerHTML = "<div class = 'rezult'>Количество правильных ответов - " + ball + "</div><div class='output-bar'>" + answers + "</div>";
+    document.getElementById('rez').innerHTML = "<div class='rezult'>Количество правильных ответов - " + ball + "</div><div class='output-bar'>" + answers + "</div>";
 }
