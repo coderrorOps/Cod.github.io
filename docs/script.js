@@ -31,5 +31,6 @@ function proverit1() {
                 ball += 1;
             answers += "<div class='output'>4. Верно </div>";
     } else {answers += "<div class='output'>4. Неверно </div>"; }
+        
     document.getElementById('rez').innerHTML = "<div class='rezult'>Количество правильных ответов - " + ball + "</div><div class='output-bar'>" + answers + "</div>";
 }
