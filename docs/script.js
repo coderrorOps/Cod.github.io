@@ -27,6 +27,7 @@ function proverit1() {
         answers += "<br><div class='output'>3. Верно </div>";
     } else {
         answers += <br><div class='output'>3. Неверно </div>"; }
+    
     if (p_ae4 == p_e4) {
                 ball += 1;
             answers += "<div class='output'>4. Верно </div>";
