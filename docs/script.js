@@ -1,3 +1,14 @@
+document.onloadstart = test;
+document.onselectstart = test;
+document.oncontextmenu = test;
+function test() {
+    return false
+}
+
+
+
+
+
 function proverit1() {
     var ball = 0;
     var answers = "";
@@ -31,6 +42,57 @@ function proverit1() {
         ball += 1;
         answers += "<div class='output'>4. Верно </div>";
     } else { answers += "<div class='output'>4. Неверно </div>"; }
+
+    document.getElementById('rez').innerHTML = "<div class='rezult'>Количество правильных ответов - " + ball + "</div><div class='output-bar'>" + answers + "</div>";
+}
+
+function proverit2() {
+    var ball = 0;
+    var answers = "";
+
+    var c_ae1_1 = "b";
+    var c_ae2_1 = "b";
+    var c_ae2_2 = "b";
+    var c_ae3_1 = "b";
+    var c_ae4_1 = "b";
+    var c_ae4_2 = "b";
+
+    var c_e1_1 = document.getElementById("zce_1_1").value;
+    var c_e2_1 = document.getElementById("zce_2_1").value;
+    var c_e2_2 = document.getElementById("zce_2_2").value;
+    var c_e3_1 = document.getElementById("zce_3_1").value;
+    var c_e4_1 = document.getElementById("zce_4_1").value;
+    var c_e4_2 = document.getElementById("zce_4_2").value;
+
+    if (c_ae1_1 == c_e1_1) {
+        ball += 1;
+        answers += "<div class='output'>1. Верно </div>";
+    } else { answers += "<div class='output'>1. Неверно </div>"; }
+
+    if (c_ae2_1 == c_e2_1) {
+        ball += 1;
+        answers += "<div class='output'>2.1 Верно </div>";
+    } else { answers += "<div class='output'>2.1 Неверно </div>"; }
+
+    if (c_ae2_2 == c_e2_2) {
+        ball += 1;
+        answers += "<div class='output'>2.2 Верно </div>";
+    } else { answers += "<div class='output'>2.2 Неверно </div>"; }
+
+    if (c_ae3_1 == c_e3_1) {
+        ball += 1;
+        answers += "<br><div class='output'>3. Верно </div>";
+    } else { answers += "<br><div class='output'>3. Неверно </div>"; }
+
+    if (c_ae4_1 == c_e4_1) {
+        ball += 1;
+        answers += "<div class='output'>4.1 Верно </div>";
+    } else { answers += "<div class='output'>4.1 Неверно </div>"; }
+
+    if (c_ae4_2 == c_e4_2) {
+        ball += 1;
+        answers += "<div class='output'>4.2 Верно </div>";
+    } else { answers += "<div class='output'>4.2 Неверно </div>"; }
 
     document.getElementById('rez').innerHTML = "<div class='rezult'>Количество правильных ответов - " + ball + "</div><div class='output-bar'>" + answers + "</div>";
 }
