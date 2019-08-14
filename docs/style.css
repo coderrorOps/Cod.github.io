@@ -227,10 +227,10 @@ padding-top: 5px;
     background: #ddd;
     z-index: -1;
     width: 100%;
-    margin-top: 502px;
+    margin-top: 480px;
     position: absolute;
     height: 570px;
-    clip-path: polygon(40% 0, 60% 10%, 100% 5%, 100% 85%, 60% 100%, 40% 90%, 0 95%, 0 15%);
+    clip-path: polygon(40% 5%, 60% 10%, 100% 7%, 100% 90%, 60% 95%, 40% 90%, 0 93%, 0 10%);
 }
 
 /* >  >> > > > > > > > > > > > > > >  >Task < < < < << < < < < <<  < < < < */
@@ -265,7 +265,7 @@ margin-right: 0;
 }
 
 #code3, #code4 {
-margin-top: 75px;
+margin-top: 55px;
 background: #fff;
 }
 
