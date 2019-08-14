@@ -8,20 +8,22 @@
     <script type="text/javascript" src="script.js"></script>	<!-- Ïîäêëþ÷åíèå js  -->
 </head>
 <body>
-    <div class="NotMobile">
+    <!--<div class="NotMobile">
         <p>Сайт <b>только</b> для компьютеров</p>
-    </div>
+    </div>-->
     <header class="header">
         <div class="header-inner">
-            <div class="logo"><a href="index.html"><img src="img/logo.png"></a></div>
-            <p>Проверь свои знания Pascal</p>
+            <div class="logo"><a><img src="img/logo.png"></a></div>
+            <div class="header-p"><p>Проверь свои знания Pascal</p></div>
             <a href="index.html">На главную</a>
         </div>
     </header>
     <main class="main">
+        <div class="task-bg-grey"></div>
+        <div class="code-bg-grey"></div>
         <div class="main-inner">
         <div class="task"><p>Найдите ошибочную строчку кода и напишите её верно.</p></div>
-            <div class="code" id="code1">
+            <div class="code grey" id="code1" >
                 <p>1</p>
                 <pre>Program ypobeni;
 
@@ -41,7 +43,7 @@ end.
                 <input class ="input" type="text" placeholder="Ответ" id="z_1">
             </div>
 
-            <div class="code" id="code2">
+            <div class="code grey" id="code2" >
                 <p>2</p>
                 <pre>Program ypobeni;
 
@@ -56,7 +58,7 @@ end.
             </div>
 
             <div class="code" id="code3">
-                <p>3</p>
+                <p class="grey">3</p>
                 <pre>Program ypobeni;
 
 const
@@ -72,11 +74,11 @@ writeln(a+b);
 
 end.
 </pre>
-                <input class="input" type="text" placeholder="Ответ" id="z_3">
+                <input class="input lite-grey" type="text" placeholder="Ответ" id="z_3">
             </div>
 
             <div class="code" id="code4">
-                <p>4</p>
+                <p class="grey">4</p>
                 <pre>Program ypobeni;
 
 begin
@@ -84,10 +86,10 @@ writeln(‘Привет мир’);
 
 end
 </pre>
-                <input class="input" type="text" placeholder="Ответ" id="z_4">
+                <input class="input lite-grey" type="text" placeholder="Ответ" id="z_4">
             </div>
 
-            <div class="footer-bar">
+            <div class="check-bar">
                 <div class="buttons-bar">
                     <button class="button" onClick="proverit1()">Проверить</button>
                     <button class="button" onclick="window.location.reload()">Заново</button> 
