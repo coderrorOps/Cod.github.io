@@ -8,9 +8,9 @@
     <script type="text/javascript" src="script.js"></script>	<!-- Ïîäêëþ÷åíèå js  -->
 </head>
 <body>
-    <!--<div class="NotMobile">
+    <div class="NotMobile">
         <p>Сайт <b>только</b> для компьютеров</p>
-    </div>-->
+    </div>
     <header class="header">
         <div class="header-inner">
             <div class="logo"><a><img src="img/logo.png"></a></div>
@@ -22,28 +22,26 @@
         <div class="task-bg-grey"></div>
         <div class="code-bg-grey"></div>
         <div class="main-inner">
-        <div class="task"><p>Найдите ошибочную строчку кода и напишите её верно.</p></div>
-            <div class="code grey" id="code1" >
+        <div class="task"><p>Найдите ошибочную строчку кода и напишите её верно.</p>
+            <a href="Pascal_normal.html">Следующий уровень</a>
+        </div>
+            <div class="code grey code1">
                 <p>1</p>
                 <pre>Program ypobeni;
 
-const
-b = 12
-
 var
-
-a: longint;
+name: char;
 
 begin;
-a:= 1;
-writeln(a+b);
-
+writeln('Как тебя зовут');
+readln(name);
+writeln('Привет' name);
 end.
 </pre>
                 <input class ="input" type="text" placeholder="Ответ" id="z_1">
             </div>
 
-            <div class="code grey" id="code2" >
+            <div class="code grey code2">
                 <p>2</p>
                 <pre>Program ypobeni;
 
@@ -57,7 +55,7 @@ end.
                 <input class="input" type="text" placeholder="Ответ" id="z_2">
             </div>
 
-            <div class="code" id="code3">
+            <div class="code code3">
                 <p class="grey">3</p>
                 <pre>Program ypobeni;
 
@@ -77,7 +75,7 @@ end.
                 <input class="input lite-grey" type="text" placeholder="Ответ" id="z_3">
             </div>
 
-            <div class="code" id="code4">
+            <div class="code code4">
                 <p class="grey">4</p>
                 <pre>Program ypobeni;
 
