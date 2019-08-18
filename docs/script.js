@@ -1,6 +1,6 @@
-//document.onloadstart = test;
-//document.onselectstart = test;
-//document.oncontextmenu = test;
+document.onloadstart = test;
+document.onselectstart = test;
+document.oncontextmenu = test;
 function test() {
     return false
 }
@@ -276,7 +276,7 @@ function proverit5() {
     var c_an2_1 = "padding-top: 16px;";
     var c_an2_2 = "font-weight: normal;";
     var c_an2_3 = "text-align: center;";
-    var c_an3_1 = "padding: 2px 2px;";
+    var c_an3_1 = "padding: 2px 3px;";
     var c_an3_2 = "border-bottom-right-radius: 20px;";
     var c_an3_3 = "background: #265ba1;";
     var c_an4_1 = "display: block;";
@@ -370,12 +370,12 @@ function proverit6() {
     var c_ah2_1 = "background: #c5daf5;";
     var c_ah2_2 = "@media screen and (max-width:480px){";
     var c_ah2_3 = "}}";
-    var c_ah3_1 = "height; 38px;";
+    var c_ah3_1 = '.search-bar input[type="submit"] {';
     var c_ah3_2 = "z-index: 9;";
     var c_ah3_3 = "position: absolute;";
     var c_ah4_1 = ".top-menu-bar {";
-        var c_ah4_2 = " ";
-        var c_ah4_2_2 = " ";
+        var c_ah4_2 = 'background: url("images/menu-bar.png");';
+        var c_ah4_2_2 = 'background: url("images/menu-bar.jpg");';
     var c_ah4_3 = "line-height: 14px;";
 
     var c_h1_1 = document.getElementById("zch_1_1").value;
