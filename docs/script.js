@@ -43,7 +43,7 @@ function proverit1() {
         answers += "<div class='output'>4. Верно </div>";
     } else { answers += "<div class='output'>4. Неверно </div>"; }
 
-    document.getElementById('rez').innerHTML = "<div class='rezult'>Количество правильных ответов - " + ball + "</div><div class='output-bar'>" + answers + "</div>";
+    document.getElementById('rez').innerHTML = "<div class='rezult'>Количество правильных ответов - " + ball + "</div><div class='output-bar output-bar_2'>" + answers + "</div>";
 }
 
 //pascal normal
@@ -214,16 +214,16 @@ function proverit3() {
 }
 
 //css easy
-function proverit5() {
+function proverit4() {
     var ball = 0;
     var answers = "";
 
-    var c_ae1_1 = "b";
-    var c_ae2_1 = "b";
-    var c_ae2_2 = "b";
-    var c_ae3_1 = "b";
-    var c_ae4_1 = "b";
-    var c_ae4_2 = "b";
+    var c_ae1_1 = ".header {";
+    var c_ae2_1 = "width: 100%;";
+    var c_ae2_2 = "height: 100%;";
+    var c_ae3_1 = "height: 40px;";
+    var c_ae4_1 = "color: #000;";
+    var c_ae4_2 = "font-weight: bold;";
 
     var c_e1_1 = document.getElementById("zce_1_1").value;
     var c_e2_1 = document.getElementById("zce_2_1").value;
@@ -262,5 +262,235 @@ function proverit5() {
         answers += "<div class='output'>4.2 Верно </div>";
     } else { answers += "<div class='output'>4.2 Неверно </div>"; }
 
-    document.getElementById('rez').innerHTML = "<div class='rezult'>Количество правильных ответов - " + ball + "</div><div class='output-bar'>" + answers + "</div>";
+    document.getElementById('rez').innerHTML = "<div class='rezult'>Количество правильных ответов - " + ball + "</div><div class='output-bar output-bar_2'>" + answers + "</div>";
+}
+
+//css Normal
+function proverit5() {
+    var ball = 0;
+    var answers = "";
+
+    var c_an1_1 = "padding: 16px 22px 23px 10px;";
+    var c_an1_2 = "font-weight: normal;";
+    var c_an1_3 = ".header-topmenu-bar ul li a:hover {";
+    var c_an2_1 = "padding-top: 16px;";
+    var c_an2_2 = "font-weight: normal;";
+    var c_an2_3 = "text-align: center;";
+    var c_an3_1 = "padding: 2px 2px;";
+    var c_an3_2 = "border-bottom-right-radius: 20px;";
+    var c_an3_3 = "background: #265ba1;";
+    var c_an4_1 = "display: block;";
+    var c_an4_2 = "position: fixed;";
+    var c_an4_3 = "font-size: 30px;";
+
+    var c_n1_1 = document.getElementById("zcn_1_1").value;
+    var c_n1_2 = document.getElementById("zcn_1_2").value;
+    var c_n1_3 = document.getElementById("zcn_1_3").value;
+    var c_n2_1 = document.getElementById("zcn_2_1").value;
+    var c_n2_2 = document.getElementById("zcn_2_2").value;
+    var c_n2_3 = document.getElementById("zcn_2_3").value;
+    var c_n3_1 = document.getElementById("zcn_3_1").value;
+    var c_n3_2 = document.getElementById("zcn_3_2").value;
+    var c_n3_3 = document.getElementById("zcn_3_3").value;
+    var c_n4_1 = document.getElementById("zcn_4_1").value;
+    var c_n4_2 = document.getElementById("zcn_4_2").value;
+    var c_n4_3 = document.getElementById("zcn_4_3").value;
+
+    if (c_an1_1 == c_n1_1) {
+        ball += 1;
+        answers += "<div class='output'>1.1 Верно </div>";
+    } else { answers += "<div class='output'>1.1 Неверно </div>"; }
+
+    if (c_an1_2 == c_n1_2) {
+        ball += 1;
+        answers += "<div class='output'>1.2 Верно </div>";
+    } else { answers += "<div class='output'>1.2 Неверно </div>"; }
+
+    if (c_an1_3 == c_n1_3) {
+        ball += 1;
+        answers += "<div class='output'>1.3 Верно </div>";
+    } else { answers += "<div class='output'>1.3 Неверно </div>"; }
+
+    if (c_an2_1 == c_n2_1) {
+        ball += 1;
+        answers += "<br><div class='output'>2.1 Верно </div>";
+    } else { answers += "<br><div class='output'>2.1 Неверно </div>"; }
+
+    if (c_an2_2 == c_n2_2) {
+        ball += 1;
+        answers += "<div class='output'>2.2 Верно </div>";
+    } else { answers += "<div class='output'>2.2 Неверно </div>"; }
+
+    if (c_an2_3 == c_n2_3) {
+        ball += 1;
+        answers += "<div class='output'>2.3 Верно </div>";
+    } else { answers += "<div class='output'>2.3 Неверно </div>"; }
+
+    if (c_an3_1 == c_n3_1) {
+        ball += 1;
+        answers += "<br><div class='output'>3.1 Верно </div>";
+    } else { answers += "<br><div class='output'>3.1 Неверно </div>"; }
+
+    if (c_an3_2 == c_n3_2) {
+        ball += 1;
+        answers += "<div class='output'>3.2 Верно </div>";
+    } else { answers += "<div class='output'>3.2 Неверно </div>"; }
+
+    if (c_an3_3 == c_n3_3) {
+        ball += 1;
+        answers += "<div class='output'>3.3 Верно </div>";
+    } else { answers += "<div class='output'>3.3 Неверно </div>"; }
+
+    if (c_an4_1 == c_n4_1) {
+        ball += 1;
+        answers += "<br><div class='output'>4.1 Верно </div>";
+    } else { answers += "<br><div class='output'>4.1 Неверно </div>"; }
+
+    if (c_an4_2 == c_n4_2) {
+        ball += 1;
+        answers += "<div class='output'>4.2 Верно </div>";
+    } else { answers += "<div class='output'>4.2 Неверно </div>"; }
+
+    if (c_an4_3 == c_n4_3) {
+        ball += 1;
+        answers += "<div class='output'>4.3 Верно </div>";
+    } else { answers += "<div class='output'>4.3 Неверно </div>"; }
+
+    document.getElementById('rez').innerHTML = "<div class='rezult'>Количество правильных ответов - " + ball + "</div><div class='output-bar output-bar_4'>" + answers + "</div>";
+}
+
+//css Normal
+function proverit6() {
+    var ball = 0;
+    var answers = "";
+
+    var c_ah1_1 = "border-bottom: 1px solid #265ba1;";
+    var c_ah1_2 = "border-bottom-left-radius: 15px;";
+    var c_ah1_3 = "outline: none;";
+    var c_ah2_1 = "background: #c5daf5;";
+    var c_ah2_2 = "@media screen and (max-width:480px){";
+    var c_ah2_3 = "}}";
+    var c_ah3_1 = "height; 38px;";
+    var c_ah3_2 = "z-index: 9;";
+    var c_ah3_3 = "position: absolute;";
+    var c_ah4_1 = ".header-bottommenu-bar {";
+        var c_ah4_2 = "url("images/menu-bar
+.png");";
+        var c_ah4_2_2 = "url("images/menu-bar
+.jpg");";
+    var c_ah4_3 = "line-height: 14px;";
+
+    var c_h1_1 = document.getElementById("zch_1_1").value;
+    var c_h1_2 = document.getElementById("zch_1_2").value;
+    var c_h1_3 = document.getElementById("zch_1_3").value;
+    var c_h2_1 = document.getElementById("zch_2_1").value;
+    var c_h2_2 = document.getElementById("zch_2_2").value;
+    var c_h2_3 = document.getElementById("zch_2_3").value;
+    var c_h3_1 = document.getElementById("zch_3_1").value;
+    var c_h3_2 = document.getElementById("zch_3_2").value;
+    var c_h3_3 = document.getElementById("zch_3_3").value;
+    var c_h4_1 = document.getElementById("zch_4_1").value;
+    var c_h4_2 = document.getElementById("zch_4_2").value;
+    var c_h4_3 = document.getElementById("zch_4_3").value;
+
+    if (c_ah1_1 == c_h1_1) {
+        ball += 1;
+        answers += "<div class='output'>1.1 Верно </div>";
+    } else { answers += "<div class='output'>1.1 Неверно </div>"; }
+
+    if (c_ah1_2 == c_h1_2) {
+        ball += 1;
+        answers += "<div class='output'>1.2 Верно </div>";
+    } else { answers += "<div class='output'>1.2 Неверно </div>"; }
+
+    if (c_ah1_3 == c_h1_3) {
+        ball += 1;
+        answers += "<div class='output'>1.3 Верно </div>";
+    } else { answers += "<div class='output'>1.3 Неверно </div>"; }
+
+    if (c_ah2_1 == c_h2_1) {
+        ball += 1;
+        answers += "<br><div class='output'>2.1 Верно </div>";
+    } else { answers += "<br><div class='output'>2.1 Неверно </div>"; }
+
+    if (c_ah2_2 == c_h2_2) {
+        ball += 1;
+        answers += "<div class='output'>2.2 Верно </div>";
+    } else { answers += "<div class='output'>2.2 Неверно </div>"; }
+
+    if (c_ah2_3 == c_h2_3) {
+        ball += 1;
+        answers += "<div class='output'>2.3 Верно </div>";
+    } else { answers += "<div class='output'>2.3 Неверно </div>"; }
+
+    if (c_ah3_1 == c_h3_1) {
+        ball += 1;
+        answers += "<br><div class='output'>3.1 Верно </div>";
+    } else { answers += "<br><div class='output'>3.1 Неверно </div>"; }
+
+    if (c_ah3_2 == c_h3_2) {
+        ball += 1;
+        answers += "<div class='output'>3.2 Верно </div>";
+    } else { answers += "<div class='output'>3.2 Неверно </div>"; }
+
+    if (c_ah3_3 == c_h3_3) {
+        ball += 1;
+        answers += "<div class='output'>3.3 Верно </div>";
+    } else { answers += "<div class='output'>3.3 Неверно </div>"; }
+
+    if (c_ah4_1 == c_h4_1) {
+        ball += 1;
+        answers += "<br><div class='output'>4.1 Верно </div>";
+    } else { answers += "<br><div class='output'>4.1 Неверно </div>"; }
+
+    if (c_ah4_2 == c_h4_2 || c_ah4_2_2 == c_h4_2) {
+        ball += 1;
+        answers += "<div class='output'>4.2 Верно </div>";
+    } else { answers += "<div class='output'>4.2 Неверно </div>"; }
+
+    if (c_ah4_3 == c_h4_3) {
+        ball += 1;
+        answers += "<div class='output'>4.3 Верно </div>";
+    } else { answers += "<div class='output'>4.3 Неверно </div>"; }
+
+    document.getElementById('rez').innerHTML = "<div class='rezult'>Количество правильных ответов - " + ball + "</div><div class='output-bar output-bar_4'>" + answers + "</div>";
+}
+
+
+//HTML easy
+function proverit7() {
+    var ball = 0;
+    var answers = "";
+
+    var h_ae1 = "b";
+    var h_ae2 = "b";
+    var h_ae3 = "b";
+    var h_ae4 = "b";
+
+    var h_e1 = document.getElementById("zhe_1").value;
+    var h_e2 = document.getElementById("zhe_2").value;
+    var h_e3 = document.getElementById("zhe_3").value;
+    var h_e4 = document.getElementById("zhe_4").value;
+
+    if (h_ae1 == h_e1) {
+        ball += 1;
+        answers += "<div class='output'>1. Верно </div>";
+    } else { answers += "<div class='output'>1. Неверно </div>"; }
+
+    if (h_ae2 == h_e2) {
+        ball += 1;
+        answers += "<div class='output'>2. Верно </div>";
+    } else { answers += "<div class='output'>2. Неверно </div>"; }
+
+    if (h_ae3 == h_e3) {
+        ball += 1;
+        answers += "<br><div class='output'>3. Верно </div>";
+    } else { answers += "<br><div class='output'>3. Неверно </div>"; }
+
+    if (h_ae4 == h_e4) {
+        ball += 1;
+        answers += "<div class='output'>4. Верно </div>";
+    } else { answers += "<div class='output'>4. Неверно </div>"; }
+
+    document.getElementById('rez').innerHTML = "<div class='rezult'>Количество правильных ответов - " + ball + "</div><div class='output-bar output-bar_2'>" + answers + "</div>";
 }
