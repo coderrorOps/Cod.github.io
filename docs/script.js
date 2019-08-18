@@ -374,8 +374,8 @@ function proverit6() {
     var c_ah3_2 = "z-index: 9;";
     var c_ah3_3 = "position: absolute;";
     var c_ah4_1 = ".top-menu-bar {";
-        var c_ah4_2 = "url();";
-        var c_ah4_2_2 = "url();";
+        var c_ah4_2 = " ";
+        var c_ah4_2_2 = " ";
     var c_ah4_3 = "line-height: 14px;";
 
     var c_h1_1 = document.getElementById("zch_1_1").value;
