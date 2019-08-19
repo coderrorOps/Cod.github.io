@@ -521,11 +521,11 @@ margin-top: 200px;
     height: 200px;
 }
 
-.height_1 > .row_2 {
+.height_1 .row_2 {
     height: 130px;
 }
 
-.height_1 > .row_3 {
+.height_1 .row_3 {
     height: 95px;
 }
 
