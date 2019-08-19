@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 document.onloadstart = test;
 document.onselectstart = test;
 document.oncontextmenu = test;
 //function test() {
     return false
 }
+=======
+//ocument.onloadstart = test;
+//document.onselectstart = test;
+//document.oncontextmenu = test;
+//function test() {
+//    return false
+//}
+>>>>>>> bc2cae17b8cb57c25efa1f98db29aa21bf814f11
 
 
 
