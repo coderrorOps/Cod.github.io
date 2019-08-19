@@ -544,15 +544,15 @@ function proverit12() {
     var ball = 0;
     var answers = "";
 
-    var Pt_ah1_1 = ".header {";
-    var Pt_ah1_2 = "width: 100%;";
-    var Pt_ah1_3 = "height: 100%;";
-    var Pt_ah2_1 = "height: 40px;";
-    var Pt_ah2_2 = "color: #000;";
-    var Pt_ah3_1 = "font-weight: bold;";
-    var Pt_ah3_2 = "font-weight: bold;";
-    var Pt_ah4_1 = "font-weight: bold;";
-    var Pt_ah4_2 = "font-weight: bold;";
+    var Pt_ah1_1 = "ever = [1,2,3,4,5,6,7,8,9,10]";
+    var Pt_ah1_2 = "ever2 = ever[::4]";
+    var Pt_ah1_3 = "print(ever2)";
+    var Pt_ah2_1 = "ever2 = range (2 , 101)[::4]";
+    var Pt_ah2_2 = "for i in  ever2:";
+    var Pt_ah3_1 = "for  i  in range(10):";
+    var Pt_ah3_2 = "print(random.randint(1,100))";
+    var Pt_ah4_1 = "while 1==1:";
+    var Pt_ah4_2 = "print('Число,' +str(i))";
 
     var Pt_h1_1 = document.getElementById("zPth_1_1").value;
     var Pt_h1_2 = document.getElementById("zPth_1_2").value;
