@@ -1,9 +1,9 @@
-document.onloadstart = test;
-document.onselectstart = test;
-document.oncontextmenu = test;
-function test() {
-    return false
-}
+//ocument.onloadstart = test;
+//document.onselectstart = test;
+//document.oncontextmenu = test;
+//function test() {
+//    return false
+//}
 
 
 
