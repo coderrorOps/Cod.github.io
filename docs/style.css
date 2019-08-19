@@ -128,15 +128,13 @@ display: block;
 /* > > > > > > > > > Menu < < < < < < < < < < <*/
 .lang, .lang-css {
 border-radius: 20px;
-width: 120px;
+width: 453px;
 display: inline-block;
 margin: 25px 10px 25px 10px;
 text-align: center;
 height: 504px;
 background: #ddd;
 }
-
-
 
 .lang1 {
 margin-top: 60px;
@@ -416,7 +414,7 @@ color: #fff;
 
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
-/*@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
 .NotMobile {
 height: 100%;
 width: 100%;
@@ -578,125 +576,4 @@ margin-top: 200px;
 .height_3-4_bg{
     margin-top: 810px;
     height: 707px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 1000px) {
-.lang-bg-white {
-    background: #fff;
-    z-index: -2;
-    width: 100%;
-    margin-top: -40px;
-    position: absolute;
-    height: 570px;
-}
-
-.lang-bg-grey {
-    background: #ddd;
-    z-index: -1;
-    width: 100%;
-    margin-top: 540px;
-    position: absolute;
-    height: 610px;
-    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
-}
-
-.header-inner {
-width: 360px;
-height: 200px;
-margin: 0 auto;
-padding-right: 15px;
-text-align: center;
-display:block;
-padding: 0;
-}
-
-.logo > a > img {
-    margin-top: -4.6px;
-height: 29px;
-width: 163px;
-}
-
-.logo {
-display: block;
-margin-top: 28px;
-margin-left: 93.5px;
-border-radius: 10px 2px 10px 2px;
-background: #fff;
-height: 40px;
-width: 173px;
-clip-path: polygon(100% 0, 95% 85%, 50% 100%, 0% 100%, 5% 15%, 50% 0);
-}
-
-.header-p p {
-color: #fff;
-font-size: 30px;
-font-weight: bold;
-line-height: 80px;
-}
-
-.header-p {
-display: block;
-width: 360px;
-height: 100px;
-padding: 0;
-}
-
-.header-inner a {
-display: block;
-color: #fff;
-font-size: 20px;
-font-weight: bold;
-margin-top: 10px;
-}
-
-.header-inner > a {
-    display: block;
-    position: absolute;
-    float: right;
-    height: 80px;
-    line-height: 65px;
-    margin-left: 814px;
-}
-/* main */
-.main-inner {
-width: 360px;
-align-content: center; 
-}
-
-.lang, .lang-css {
-border-radius: 20px;
-width: 340px ;
-display: block;
-margin: 25px 10px 25px 10px;
-text-align: center;
-height: 504px;
-background: #ddd;
-}
-
-.lang-inner img {
-width: 180px;
-height: 180px;
-}
-
-}
-
-
-@media screen and (max-width: 1000x) {
 }
