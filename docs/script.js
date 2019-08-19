@@ -1,7 +1,6 @@
-
-document.onloadstart = test;
-document.onselectstart = test;
-document.oncontextmenu = test;
+//document.onloadstart = test;
+//document.onselectstart = test;
+//document.oncontextmenu = test;
 //function test() {
 //    return false
 //}
