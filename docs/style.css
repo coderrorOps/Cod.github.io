@@ -177,11 +177,11 @@ clear: both;
 }
 .description p {
     margin-top: 5px;
-font-size: 17px;
+font-size: 15px;
 text-align: left;
-font-weight: bold;
-    color:#000;
-    
+font-weight: 700;
+color: #000;
+
 }
 
 .lang-inner ul li a {
@@ -607,8 +607,33 @@ margin-top: 200px;
     height: 644px;
 }
 
+/* height 16/8 */
+.height_5-5 {
+    height: 800px;
+}
+
+.code > .height_5-5 {
+    height: 694px;
+}
+
+.code > .height_5-5-2 {
+    height: 729px;
+}
+
+.height_5-5_bg{
+    margin-top: 264px;
+    height:1053px;
+    clip-path: polygon(40% 7%, 60% 10%, 100% 8%, 100% 90%, 60% 93%, 40% 90%, 0 92%, 0 10%);
+}
+
+
 /* >>>> extra <<<< */
 .height_3-4_bg{
     margin-top: 810px;
     height: 707px;
+}
+
+.height_normal1_bg {
+    height: 710px;
+    margin-top: 460px;
 }

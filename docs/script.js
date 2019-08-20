@@ -5,9 +5,6 @@ document.oncontextmenu = test;
 //    return false
 //}
 
-
-
-
 //Pascal easy
 function proverit1() {
     var ball = 0;
@@ -655,3 +652,4 @@ function proverit7() {
 
     document.getElementById('rez').innerHTML = "<div class='rezult'>Количество правильных ответов - " + ball + "</div><div class='output-bar output-bar_2'>" + answers + "</div>";
 }
+
