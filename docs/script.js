@@ -623,32 +623,32 @@ function proverit7() {
     var ball = 0;
     var answers = "";
 
-    var h_ae1 = "b";
-    var h_ae2 = "b";
-    var h_ae3 = "b";
-    var h_ae4 = "b";
+    var Ht_ae1 = "<h1>Hello world</h1>";
+    var Ht_ae2 = "<h1><b> привет</b></h1>";
+    var Ht_ae3 = "<h1 align=”center”>Привет мир</h1>";
+    var Ht_ae4 = "<h1><q>Человек должен мечтать.</q></h1>";
 
-    var h_e1 = document.getElementById("zhe_1").value;
-    var h_e2 = document.getElementById("zhe_2").value;
-    var h_e3 = document.getElementById("zhe_3").value;
-    var h_e4 = document.getElementById("zhe_4").value;
+    var Ht_e1 = document.getElementById("zHte_1").value;
+    var Ht_e2 = document.getElementById("zHte_2").value;
+    var Ht_e3 = document.getElementById("zHte_3").value;
+    var Ht_e4 = document.getElementById("zHte_4").value;
 
-    if (h_ae1 == h_e1) {
+    if (Ht_ae1 == Ht_e1) {
         ball += 1;
         answers += "<div class='output'>1. Верно </div>";
     } else { answers += "<div class='output'>1. Неверно </div>"; }
 
-    if (h_ae2 == h_e2) {
+    if (Ht_ae2 == Ht_e2) {
         ball += 1;
         answers += "<div class='output'>2. Верно </div>";
     } else { answers += "<div class='output'>2. Неверно </div>"; }
 
-    if (h_ae3 == h_e3) {
+    if (Ht_ae3 == Ht_e3) {
         ball += 1;
         answers += "<br><div class='output'>3. Верно </div>";
     } else { answers += "<br><div class='output'>3. Неверно </div>"; }
 
-    if (h_ae4 == h_e4) {
+    if (Ht_ae4 == Ht_e4) {
         ball += 1;
         answers += "<div class='output'>4. Верно </div>";
     } else { answers += "<div class='output'>4. Неверно </div>"; }
