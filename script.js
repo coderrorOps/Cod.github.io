@@ -15,5 +15,5 @@ window.location.href = "docs/index.html";
 }   else {
 document.write("Неверный пароль")
 }
-
+}
     
