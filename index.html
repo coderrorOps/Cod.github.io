@@ -6,9 +6,27 @@
 		<meta charset="windows-1252"> 										<!-- ���������  -->
 		<link rel="stylesheet" type="text/css" href="style.css">	<!-- ����������� css ������  -->
 		<script type="text/javascript" charset="utf-8" src="script.js"></script>	<!-- ����������� js  -->
+		<script type="text/javascript">    
+			document.onloadstart = test;
+			document.onselectstart = test;
+			document.oncontextmenu = test;
+			function test() {
+			    return false
+			}
+
+			function log_in() { 
+			var correct_password = "Rubic123";
+  
+			var password = document.getElementById("pass").value;
+  
+			if (correct_password == password){
+			window.location.href = "docs/index.html";
+			}   else {
+			document.write("Неверный пароль")
+			}
+		</script>
 	</head> 
 		<body>
-			<a href="docs/index.html">Перейти</a>
 			<input class ="input" type="text" placeholder="Введите пароль" id="pass">
 			<button class="button" onClick="log_in()">Вход</button>
 		</body> 
