@@ -12,4 +12,8 @@ var password = document.getElementById("pass").value;
   
 if (correct_password == password){
 window.location.href = "docs/index.html";
+}   else {
+document.write("Неверный пароль")
 }
+
+    
