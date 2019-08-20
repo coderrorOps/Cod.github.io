@@ -13,7 +13,7 @@ margin-top:30%;
   text-align:center;
 }
 
-#pass {
+.input {
 border-radius: 15px;
 border: 1px solid #2e71f3;
 padding: 5px;
