@@ -1,1 +1,36 @@
+html {
+bacground: #ddd;
+}
+body {
+  text-align:center;
+}
 
+.log_in-bar {
+bacground: #fff;
+padding:15px;
+width:40%;
+margin-top:30%;
+  text-align:center;
+}
+
+#pass {
+border-radius: 15px;
+border: 1px solid #2e71f3;
+padding: 5px;
+font-size: 18px;
+width: 30%px;
+outline:none;
+margin-top: 4px;
+}
+
+.button {
+display: block;
+border-radius: 20px;
+width: 120px;
+height: 40px;
+border: 1px;
+outline: none;
+color:#fff;
+font-weight: bold;
+background: #2e71f3;
+}
