@@ -48,7 +48,7 @@ function proverit2() {
     var ball = 0;
     var answers = "";
 
-    var p_an1_1 = "while i <= 10 do ";
+    var p_an1_1 = "while i <= 10 do";
     var p_an2_1 = "i: longint;";
     var p_an2_2 = "i:= i+1;";
     var p_an3_1 = "writeln('Введите первое число');";
@@ -131,7 +131,7 @@ function proverit3() {
     var p_ah3_2 = "begin";
     var p_ah3_3 = "writeln('это равно ', b/a);";
     var p_ah4_1 = "i: longint;";
-    var p_ah4_2 = "for i:= 0 to 10 do;";
+    var p_ah4_2 = "for i:= 0 to 10 do";
     var p_ah4_3 = "end.";
 
     var p_h1_1 = document.getElementById("zph_1_1").value;
@@ -622,7 +622,7 @@ function proverit7() {
     var answers = "";
 
     var Ht_ae1 = "<h1>Hello world</h1>";
-    var Ht_ae2 = "<h1><b> привет</b></h1>";
+    var Ht_ae2 = "<h1><b>привет</b></h1>";
     var Ht_ae3 = "<h1 align=”center”>Привет мир</h1>";
     var Ht_ae4 = "<h1><q>Человек должен мечтать.</q></h1>";
 
@@ -659,7 +659,7 @@ function proverit8() {
     var ball = 0;
     var answers = "";
 
-    var Ht_an1 = '<img src="logo.png"width="60px" height="60px">';
+    var Ht_an1 = '<img src="logo.png" width="60px" height="60px">';
     var Ht_an2_1 = '<a href="http://keksby.ru">';
     var Ht_an2_2 = '<img src="cat.png" alt="Кекс">';
     var Ht_an3_1 = "<li><h1>";
