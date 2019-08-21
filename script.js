@@ -12,7 +12,7 @@ alert("   Для удобства использования сайта вы м�
 
 
 function log_in() { 
-var correct_password = "Sophia Андрюхина";
+var correct_password = "Софья Андрюхина";
   
 var password = document.getElementById("pass").value;
   
