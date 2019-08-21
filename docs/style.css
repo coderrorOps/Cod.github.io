@@ -179,8 +179,9 @@ clear: both;
     margin-top: 5px;
 font-size: 15px;
 text-align: left;
-font-weight: 700;
-color: #000;
+font-weight: 500;
+font-weight: bold;
+color: #252525;
 
 }
 
@@ -304,7 +305,7 @@ float:right;
 
 
 .code pre {
-font-size: 20px;
+font-size: 19px;
 text-align: left;
 font-weight: bold;
 height: 367px;
@@ -416,7 +417,7 @@ color: #fff;
 
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
-/*@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
 .NotMobile {
 height: 100%;
 width: 100%;

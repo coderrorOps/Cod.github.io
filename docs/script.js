@@ -273,7 +273,8 @@ function proverit5() {
     var c_an2_1 = "padding-top: 16px;";
     var c_an2_2 = "font-weight: normal;";
     var c_an2_3 = "text-align: center;";
-    var c_an3_1 = "padding: 2px 3px;";
+        var c_an3_1_1 = "padding: 2px 3px;";
+        var c_an3_1_2 = "padding: 2% 3%;";
     var c_an3_2 = "border-bottom-right-radius: 20px;";
     var c_an3_3 = "background: #265ba1;";
     var c_an4_1 = "display: block;";
@@ -323,7 +324,7 @@ function proverit5() {
         answers += "<div class='output'>2.3 Верно </div>";
     } else { answers += "<div class='output'>2.3 Неверно </div>"; }
 
-    if (c_an3_1 == c_n3_1) {
+    if (c_an3_1_1 == c_n3_1 || c_an3_1_2 == c_n3_1) {
         ball += 1;
         answers += "<br><div class='output'>3.1 Верно </div>";
     } else { answers += "<br><div class='output'>3.1 Неверно </div>"; }
@@ -545,8 +546,8 @@ function proverit12() {
     var Pt_ah1_2 = "ever2 = ever[::4]";
     var Pt_ah1_3 = "print(ever2)";
     var Pt_ah2_1 = "ever2 = range (2 , 101)[::4]";
-    var Pt_ah2_2 = "for i in  ever2:";
-    var Pt_ah3_1 = "for  i  in range(10):";
+    var Pt_ah2_2 = "for i in ever2:";
+    var Pt_ah3_1 = "for i in range(10):";
     var Pt_ah3_2 = "print(random.randint(1,100))";
     var Pt_ah4_1 = "while 1==1:";
     var Pt_ah4_2 = "print('Число,' +str(i))";
@@ -734,7 +735,7 @@ function proverit9() {
     var Ht_ah3_2 = "</ul>";
     var Ht_ah3_3 = "</details>";
     var Ht_ah4_1 = '<meta charset="utf-8">';
-    var Ht_ah4_2 = '<link rel="shortcut icon" href="logo.ico" >';
+    var Ht_ah4_2 = '<link rel="shortcut icon" href="logo.ico">';
     var Ht_ah4_3 = '<link rel="stylesheet" type="text/css" href="style.css">';
 
     var Ht_h1_1 = document.getElementById("zHth_1_1").value;
