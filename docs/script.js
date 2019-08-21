@@ -1,9 +1,9 @@
 document.onloadstart = test;
 document.onselectstart = test;
 document.oncontextmenu = test;
-//function test() {
-//    return false
-//}
+function test() {
+    return false
+}
 
 //Pascal easy
 function proverit1() {
