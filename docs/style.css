@@ -1,35 +1,28 @@
 
 
-* {
+* {					/* стили для всей страницы */
 padding: 0px;
 margin: 0px;
 }
 
-html, body {
+html, body {		/* стили для html и body */
 font-family: "Segoe UI", Arial, sans-serif;
 height: 100%;
 width: 100%;
 overflow-x: hidden;
 }
 
-header, main, nav, article, aside, section, footer { 
+header, main, nav, article, aside, section, footer {  /* Свойство блок по умолчанию для тегов */
 display: block;
 }
 
-/*> > > > > > > > > > > > > > > > > > > > > > > > >  heder  < < < < < < < < < < < < < < < < < < < < < < <*/
+/*> > > > > > > > > > > > > > > > > > > > > > > > >  additional blocks / Доп блоки  < < < < < < < < < < < < < < < < < < < < < < <*/
 
-.NotMobile p {
+.NotMobile p {                   /* отображение мобильной версии выкл.*/
 display: none;
 }
 
-.header {
-width: 100%;
-background: #2e71f3;
-display: block;
-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
-}
-
-.lang-bg-white {
+.lang-bg-white {                        /* Белый фон блоков главной страницы*/
     background: #fff;
     z-index: -2;
     width: 100%;
@@ -38,7 +31,7 @@ clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
     height: 570px;
 }
 
-.lang-bg-grey {
+.lang-bg-grey {							/* Серый фон для главной страницы*/
     background: #ddd;
     z-index: -1;
     width: 100%;
@@ -48,7 +41,15 @@ clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
 }
 
-.header-inner {
+/*> > > > > > > > > > > > > > > > > > > > > > > > >  heder / шапка сайта  < < < < < < < < < < < < < < < < < < < < < < <*/
+
+.header {				/* Шапка */
+width: 100%;
+background: #2e71f3;
+clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+}
+
+.header-inner { 		/* Основной блок хидера*/
 width: 960px;
 height: 100px;
 margin: 0 auto;
@@ -58,7 +59,13 @@ display:block;
 padding: 0;
 }
 
-.logo > a > img {
+/* ------------- Логотип ----------------*/
+.header-inner a {
+display: inline-block;
+margin-top: 10px;
+}
+
+.logo > a > img {			
     margin-top: -4.6px;
 height: 29px;
 width: 163px;
@@ -75,6 +82,7 @@ width: 173px;
 clip-path: polygon(100% 0, 95% 85%, 50% 100%, 0% 100%, 5% 15%, 50% 0);
 }
 
+/* -------------- 	Текст хидера  ------------*/
 .header-p p {
 color: #fff;
 font-size: 30px;
@@ -90,33 +98,37 @@ padding: 0;
 position: absolute;
 }
 
-.header-inner a {
-display: inline-block;
-color: #fff;
-font-size: 20px;
-font-weight: bold;
-margin-top: 10px;
-}
+/* ---- Кнопка "На главную" -----*/
+
 
 .header-inner > a {
+	color: #264ee4;
+	font-size: 20px;
+	font-weight: bold;	
     display: block;
-    position: absolute;
+    position: relative;
     float: right;
-    height: 80px;
-    line-height: 65px;
-    margin-left: 814px;
+    margin-top: 25px;
+    padding: 2px 10px 7px 10px;
+    background: #fff;
+    clip-path: polygon(100% 0, 95% 85%, 50% 100%, 0% 100%, 5% 15%, 50% 0);
+}
+
+.header-inner > a:hover { 						/* стили при наведении на кнопку*/
+	border: 3px solid #264ee4;
+	margin-top: 24px;
+    padding: 0 7px 4px 7px;
 }
 
 
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Main <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
-/*> > > > > > > > > > > > > > > > > > > > > > > > >  content  < < < < < < < < < < < < < < < < < < < < < < <*/
-.main {
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Main / главная страница <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.main {							/* Стили для юлока с контентом*/
 width: 100%;
 position: relative;
-display: block;
 }
 
-.main-inner {
+.main-inner {					/* Основной блок контента*/
 margin: 0 auto;
 position: relative;
 width: 960px;
@@ -124,9 +136,11 @@ z-index: 0;
 display: block;
 }
 
+/*> > > > > > > > > > > > > > > > > > > > > > > > >  content / содержимое < < < < < < < < < < < < < < < < < < < < < < <*/
 
-/* > > > > > > > > > Menu < < < < < < < < < < <*/
-.lang, .lang-css {
+
+/* > > > > > > > > > Menu / меню < < < < < < < < < < <*/
+.lang, .lang-css {		/* Блоки выбора языка програмирования*/
 border-radius: 20px;
 width: 453px;
 display: inline-block;
@@ -136,23 +150,19 @@ height: 504px;
 background: #ddd;
 }
 
-.lang1 {
+.lang1 {			/* особый стиль для первого блока */
 margin-top: 60px;
 background: #fff;
 }
 
+/*-------- Содержимое блока языка ----------*/
 
 .lang-inner {
 margin: 10%;
 width: 80%;
 }
-
-
-.lang-inner img {
-width: 180px;
-height: 180px;
-}
  
+ /*---- блок с лого и названием языка ----*/
 
 .lang-name {
 width: 180px;
@@ -161,13 +171,19 @@ display: inline-block;
 float: left;
 }
 
+.lang-inner img { /* Лого языка*/
+width: 180px;
+height: 180px;
+}
 
-.lang-inner p {
+/*---- Стили для текста в блоке ----*/
+.lang-inner p {   
 font-size: 30px;
 align-self: center;
 }
 
-.description {
+/*---- стили для текста-описания языка ----*/
+.description {		
 border-radius: 10px 0 10px 0;
 padding-top: 5px;
 width: 105%;
@@ -185,6 +201,8 @@ color: #252525;
 
 }
 
+
+/*---- кнопки выбора уровня сложности ----*/
 .lang-inner ul li a {
 text-decoration: none;
 color: #fff;
@@ -203,7 +221,7 @@ border-radius: 20px;
 margin-top: 5px;
 }
 
-.lang-inner ul li:first-child {
+.lang-inner ul li:first-child { /* особые стили для первой кнопки*/
 margin-top: 0px;
 }
 
@@ -215,9 +233,9 @@ float: right;
 padding-top: 5px;
 }
 
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> task <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>bg<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
-.task-bg-grey {
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> page with exercises / страница с упражнениями <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>bg / фон <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.task-bg-grey {					/* Серый фон у задания */
     background: #ddd;
     z-index: -1;
     width: 100%;
@@ -226,7 +244,8 @@ padding-top: 5px;
     height: 90px;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
 }
-.code-bg-grey {
+
+.code-bg-grey {					/* Серый фон у блока с упражнениями*/
     background: #ddd;
     z-index: -1;
     width: 100%;
@@ -236,7 +255,7 @@ padding-top: 5px;
     clip-path: polygon(40% 5%, 60% 10%, 100% 7%, 100% 90%, 60% 95%, 40% 90%, 0 93%, 0 10%);
 }
 
-/* >  >> > > > > > > > > > > > > > >  >Task < < < < << < < < < <<  < < < < */
+/* >  >> > > > > > > > > > > > > > >  >Task / задание< < < < << < < < < <<  < < < < */
 .task {
 text-align:center;
 width: 95%;
@@ -263,8 +282,10 @@ margin-bottom:30px;
     text-decoration-line: none;
 }
 
-/* > > > > > >> >>  > > >> > > > >> code << < < < < < < < < << < < < << < < */
-.code {
+/* > > > > > > > > > > > > > > > > > > code < < < < < < < < < < < < < < < < < < < */
+
+/*---- Блок с кодом ----*/
+.code { 			
 border-radius: 10px;
 height: 400px;
 width: 432px;
@@ -276,7 +297,7 @@ padding-left: 19px;
 margin-bottom: 21px;
 }
 
-.code2 , .code4 {
+.code2 , .code4 { 	/* особые стили для некоторых блоков */
 margin-right: 0;
 }
 
@@ -289,6 +310,7 @@ margin-top: 35px;
 background: #fff;
 }
 
+/*--- Номер блока ---*/
 .code p{
 border-radius:50px;
 color:#000;
@@ -299,11 +321,12 @@ padding:5px 11px;
 float:right;
 }
 
-.code .grey, .grey{
+/*--- фон для боков и номера на белом фоне ---*/
+.code .grey, .grey{ 
     background: #ddd;
 }
 
-
+/*--- Код ---*/
 .code pre {
 font-size: 19px;
 text-align: left;
@@ -311,6 +334,7 @@ font-weight: bold;
 height: 367px;
 }
 
+/*--- Поле ввода ответа ---*/
 .input {
 border-radius: 15px;
 border: 1px solid #2e71f3;
@@ -321,12 +345,12 @@ outline:none;
 margin-top: 4px;
 }
 
-.input:first-child{
+.input:first-child{ /* отдельные стили для первого поля ввода */
 margin-top: 0px;
 }
 
 
-/* > > > > > >> >>  > > >> > > > >> Check-bar << < < < < < < < < << < < < << < < */
+/* > > > > > > > > > > > > > > > > > > Check-bar / блок проверки кода < < < < < < < < < < < < < < < < < < < */
 .check-bar {
 width: 918px;
 margin-top: 45px;
@@ -338,6 +362,8 @@ padding-top:13px;
 display: block;
 background: #ddd;
 }
+
+/*---- Кнопки проверки и очистки ----*/
 .buttons-bar {
     margin-top: 5px;
 position: absolute;
@@ -358,15 +384,11 @@ font-weight: bold;
 background: #2e71f3;
 }
 
-.button:last-of-type {
+.button:last-of-type {  /* особые стили для последней кнопки */
 margin-bottom: 0px;
 }
 
-.output-bar {
-
-display: inline-block;
-width: 450px;
-}
+/*-- > - > - Блок вывода информации о правильности заданий - < - < --*/
 
 #rez {
 width: 633px;
@@ -377,6 +399,8 @@ position: absolute;
 margin-left: 210px;
 margin-top: -10px;
 }
+
+/*--- поле результата (кол-во верных ответов) ---*/
 .rezult{
 color: #000;
 font-size: 19px;
@@ -384,14 +408,20 @@ display: inline-block;
 font-weight: bold;
 }
 
+/*--- Поле с точным указанием верности ответа ---*/
+.output-bar {
+display: inline-block;
+width: 450px;
+}
+
+/*-- верность ответа --*/
 .output {
 display: inline-block;
 width: 150px;
 font-size:18px;
 }
 
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
-/*> > > > > > > > > > > > > > > > > > > > > > > > >  footer  < < < < < < < < < < < < < < < < < < < < < < <*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Footer / подвал сайта <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 .footer {
     height: 75px;
 width: 100%;
@@ -400,23 +430,17 @@ align-content: center;
 background: #2e71f3;
 }
 
-.footer-block {
-width: 960px;
-height: 75px;
-color: #fff;
-}
-
-.footer p {
+.footer p {				/* текст футера */
 line-height: 75px;
 color: #fff;
 }
 
-.footer p a {
+.footer p a {		/* ссылка на сайт Rubicone */
 color: #fff;
 }
 
 
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>The ban on mobile adaptation / запрет на мобильную адаптацию при маленьком экране <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 @media only screen and (max-width: 1000px) {
 .NotMobile {
 height: 100%;
@@ -458,10 +482,7 @@ margin-top: 200px;
 
 
 
-/* additions_TEST */
-.output-bar_4{
-    margin-top: -5px;
-}
+/* additions for Ppascal / Особые дополнения для корректного отображения заданий Pascal */
 
 .code .Pascal_n_2 {
     height: 332px;
@@ -496,30 +517,31 @@ margin-top: 200px;
 
 
 
-/* > > > > > > > > > Additions < < < < < < < < < < */
+/* > > > > > > > > > Additions /  Особые дополнения для корректного отображения заданий (Универсальные) < < < < < < < < < < */
 
 /*    JS      */
 
-.output-bar_2{
+.output-bar_2{			/* отображение 2 строк результата задания */
     margin-top: 15px;
 }
 
-.output-bar_4{
+.output-bar_4{			/* отображение 4 строк результата задания */
     margin-top: -5px;
 }
 
 /*  - - - - - - - - - -   CSS   - - - - - - - - - - - -  */
 
-.code .row_2 {
+.code .row_2 {			/* Отображение 2 полей ввода */
     height: 332px;
 }
 
-.code .row_3 {
+.code .row_3 {			/* Отображение 3 полей ввода */
     height: 294px;
 }
 
 
-/* height 4/8 */
+/*------------------------------------------------------------------соотношение стандртного блока 8---------------------------------------------*/
+/* height 4/8   /   масштб высоты блока 4 к 8 */
 .height_1 {
     height: 200px;
 }
@@ -543,7 +565,7 @@ margin-top: 200px;
 }
 
 
-/* ------- */
+/* -------             немного больший масштаб нежели 4 к 8 */
 .height_1-5 {
     height: 240px;
 }
@@ -571,7 +593,7 @@ margin-top: 200px;
 }
 
 
-/* height 9/8 */
+/* height 9/8    /   масштб высоты блока 9 к 8 */
 .height_2 {
     height: 450px;
 }
@@ -585,7 +607,7 @@ margin-top: 200px;
     height: 620px;
 }
 
-/* height 10.5/8 */
+/* height 10.5/8    /   масштб высоты блока 10.5 к 8 */
 .height_3 {
     height: 525px;
 }
@@ -599,7 +621,7 @@ margin-top: 200px;
     height: 707px;
 }
 
-/* height 15/8 */
+/* height 15/8    /   масштб высоты блока 15 к 8 */
 .height_5 {
     height: 750px;
 }
@@ -608,7 +630,7 @@ margin-top: 200px;
     height: 644px;
 }
 
-/* height 16/8 */
+/* height 16/8    /   масштб высоты блока 16 к 8 */
 .height_5-5 {
     height: 800px;
 }
@@ -628,7 +650,7 @@ margin-top: 200px;
 }
 
 
-/* >>>> extra <<<< */
+/* > > > > extra < < < < ----------------------------ОСОБЫЕ стили для "редких"" блоков*/    
 .height_3-4_bg{
     margin-top: 810px;
     height: 707px;
