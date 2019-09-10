@@ -63,12 +63,7 @@ padding: 0;
 .header-inner a {
 display: inline-block;
 margin-top: 10px;
-}
-
-.logo > a > img {			
-    margin-top: -4.6px;
-height: 29px;
-width: 163px;
+cursor: pointer;
 }
 
 .logo {
@@ -80,6 +75,12 @@ background: #fff;
 height: 40px;
 width: 173px;
 clip-path: polygon(100% 0, 95% 85%, 50% 100%, 0% 100%, 5% 15%, 50% 0);
+}
+
+.logo > a > img {			
+    margin-top: -4.6px;
+height: 29px;
+width: 163px;
 }
 
 /* -------------- 	Текст хидера  ------------*/
@@ -228,12 +229,19 @@ font-weight: bold;
 list-style-type: none;
 display:block;
 text-align: center;
-width: 140px;
-height: 40px;
-line-height: 40px;
+width: 136px;
+height: 36px;
+padding:2px;
+line-height: 36px;
 background: #2e71f3;
 border-radius: 20px;
 margin-top: 5px;
+}
+
+.lang-inner ul li:hover {
+border: 2px solid #264ee4;
+padding: 0;
+cursor: pointer;
 }
 
 .lang-inner ul li:first-child { /* особые стили для первой кнопки*/
@@ -297,6 +305,12 @@ margin-bottom:30px;
     text-decoration-line: none;
 }
 
+.task a:hover {
+border-radius: 20px;
+border: 2px solid #264ee4;
+padding: 3px;
+cursor: pointer;
+}
 /* > > > > > > > > > > > > > > > > > > code < < < < < < < < < < < < < < < < < < < */
 
 /*---- Блок с кодом ----*/
@@ -397,6 +411,12 @@ outline: none;
 color:#fff;
 font-weight: bold;
 background: #2e71f3;
+}
+
+.button:hover {          
+border-radius: 20px;
+border: 3px solid #264ee4;
+cursor: pointer;
 }
 
 .button:last-of-type {  /* особые стили для последней кнопки */
