@@ -98,6 +98,8 @@ padding: 0;
 position: absolute;
 }
 
+
+
 /* ---- Кнопка "На главную" -----*/
 
 
@@ -138,6 +140,19 @@ display: block;
 
 /*> > > > > > > > > > > > > > > > > > > > > > > > >  content / содержимое < < < < < < < < < < < < < < < < < < < < < < <*/
 
+.vk-logo img {					/* --  ссылка на группу вк  -- */
+	height: 50px;
+	width: 50px;
+	border: 2px solid #fff;
+    border-radius: 50px;
+}
+
+main > .vk-logo  img {   
+    position: fixed;
+    bottom: 10px;
+    right: 40px
+
+}
 
 /* > > > > > > > > > Menu / меню < < < < < < < < < < <*/
 .lang, .lang-css {		/* Блоки выбора языка програмирования*/
@@ -438,7 +453,6 @@ color: #fff;
 .footer p a {		/* ссылка на сайт Rubicone */
 color: #fff;
 }
-
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>The ban on mobile adaptation / запрет на мобильную адаптацию при маленьком экране <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 @media only screen and (max-width: 1000px) {
