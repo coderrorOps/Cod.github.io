@@ -1,9 +1,12 @@
+// запреты на выделение копирование и перетаскивание объектов на странице
 document.onloadstart = test;
 document.onselectstart = test;
 document.oncontextmenu = test;
 function test() {
     return false
 }
+
+//------------------- проверка ответов -------------------------//
 
 //Pascal easy
 function proverit1() {
