@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+    <title>Coderror</title>
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <meta charset="utf-8">                                          
+    <link rel="stylesheet" type="text/css" href="style.css">        
+    <script type="text/javascript" src="script.js"></script>        
+</head>
+<body>
+    <div class="NotMobile">
+        <p>Сайт <b>только</b> для компьютеров</p>
+    </div>
+    <header class="header">
+        <div class="header-inner">
+            <div class="logo"><a href="index.html"><img src="img/logo.png"></a></div>
+            <div class="header-p"><p>Проверь свои знания Phyton</p></div>
+            <a href="index.html">На главную</a>
+        </div>
+    </header>
+    <main class="main">
+        <div class="vk-logo"><a href="https://vk.com/coderrorops"><img src="img/vk-logo.png"></a></div>
+
+        <div class="task-bg-grey"></div>
+        <div class="code-bg-grey height_1_bg"></div>
+        <div class="main-inner">
+        <div class="task"><p>Найдите ошибочные строчки кода и напишите их верно и по порядку.</p>
+            <a href="phyton_normal.html">Следующий уровень</a>
+        </div>
+            <div class="height_1 code grey code1">
+                <p>1</p>
+                <pre class="height_1">prent("Hello World")
+</pre>
+                <input class ="input" type="text" placeholder="Ответ" id="answer_1">
+            </div>
+
+            <div class="height_1 code grey code2">
+                <p>2</p>
+                <pre class="height_1">test := 123
+
+print(test)
+</pre>
+                <input class="input" type="text" placeholder="Ответ" id="answer_2">
+            </div>
+
+            <div class="height_1 code code3">
+                <p class="grey">3</p>
+                <pre class="height_1">print(20\\6)
+</pre>
+                <input class="input lite-grey" type="text" placeholder="Ответ" id="answer_3">
+            </div>
+
+            <div class="height_1 code code4">
+                <p class="grey">4</p>
+                <pre class="height_1">i = 1 
+while i<=5:
+    print(l)
+    i = i+1
+</pre>
+                <input class="input lite-grey" type="text" placeholder="Ответ" id="answer_4">
+            </div>
+
+            <div class="check-bar">
+                <div class="buttons-bar">
+                    <button class="button" onClick="proverit10()">Проверить</button>
+                    <button class="button" onclick="window.location.reload()">Заново</button> 
+                </div>
+                <div id="rez"></div>
+            </div>
+            
+            
+
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <p>Создано при поддержке <a href="http://www.rubiconepro.ru">Rubicone</a></p>
+        </div>
+    </footer>
+
+
+</body>
+</html> 

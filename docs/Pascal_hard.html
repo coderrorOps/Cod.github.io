@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+    <title>Coderror</title>
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <meta charset="utf-8"> 										   
+    <link rel="stylesheet" type="text/css" href="style.css">	   
+    <script type="text/javascript" src="script.js"></script>	   
+</head>
+<body>
+    <div class="NotMobile">
+        <p>Сайт <b>только</b> для компьютеров</p>
+    </div>
+    <header class="header">
+        <div class="header-inner">
+            <div class="logo"><a href="index.html"><img src="img/logo.png"></a></div>
+            <div class="header-p"><p>Проверь свои знания Pascal</p></div>
+            <a href="index.html">На главную</a>
+        </div>
+    </header>
+    <main class="main">
+        <div class="vk-logo"><a href="https://vk.com/coderrorops"><img src="img/vk-logo.png"></a></div>
+        
+        <div class="task-bg-grey"></div>
+        <div class="code-bg-grey Pascal_h_bg"></div>
+        <div class="main-inner">
+        <div class="task"><p>Найдите ошибочную строчку кода и напишите её верно и по порядку.</p></div>
+            <div class="code grey code1 Pascal_h">
+                <p>1</p>
+                <pre class="Pascal_h_2">Program yrobeni;
+
+var
+ day: longint;
+begin
+ writeln('Введите номер дня недели');
+ redln(day);
+ case day of
+1 :writeln('понедельник');
+2 :writeln('вторник');
+3 :writeln('среда');
+4 :writeln('четверг');
+5 :writeln('пятница');
+6 ;writeln('суббота');
+7 :writeln('воскресенье');
+
+else
+  writeln;('Неверный номер дня недели')
+end;
+end.
+</pre>
+                <input class ="input" type="text" placeholder="Ответ" id="answer_1_1">
+                <input class ="input" type="text" placeholder="Ответ" id="answer_1_2">
+                <input class ="input" type="text" placeholder="Ответ" id="answer_1_3">
+            </div>
+
+            <div class="code grey code2 Pascal_h">
+                <p>2</p>
+                <pre class="Pascal_h_2">Program ypobeni
+
+var
+a,b: longint;
+
+begin
+writeln('Введите 1-ое число');
+readln(a);
+  if a > 0 then
+begin
+ writeln:('2-ое число меньше 39');
+ end
+ else
+  begin 
+   writeln:('Второе число >= 39');
+ end;
+ 
+end;
+</pre>
+                <input class="input" type="text" placeholder="Ответ" id="answer_2_1">
+                <input class="input" type="text" placeholder="Ответ" id="answer_2_2">
+                <input class="input" type="text" placeholder="Ответ" id="answer_2_3">
+            </div>
+
+            <div class="code code3 Pascal_n">
+                <p class="grey">3</p>
+                <pre class="Pascal_n_3">Program ypbeni;
+
+const
+
+a:= 12;
+
+var
+
+b: longint;
+
+begln
+  writeln('Введите число');
+  readln(b);
+  writeln('это равно 'b/a);
+end.
+</pre>
+                    <input class="input" type="text" placeholder="Ответ" id="answer_3_1">
+                    <input class="input" type="text" placeholder="Ответ" id="answer_3_2">
+                    <input class="input" type="text" placeholder="Ответ" id="answer_3_3">
+            </div>
+
+            <div class="code code4 Pascal_n">
+                <p class="grey">4</p>
+                <pre class="Pascal_n_3">Program yrobeni;
+
+var
+
+i: longint
+
+begin
+
+begin
+ for i: 0 to 10 do;
+ 
+writeln ('ёжик'); 
+
+end;
+
+end
+</pre>
+                <input class="input " type="text" placeholder="Ответ" id="answer_4_1">
+                <input class="input " type="text" placeholder="Ответ" id="answer_4_2">
+                <input class="input " type="text" placeholder="Ответ" id="answer_4_3">
+            </div>
+
+            <div class="check-bar">
+                <div class="buttons-bar">
+                    <button class="button" onClick="proverit3()">Проверить</button>
+                    <button class="button" onclick="window.location.reload()">Заново</button> 
+                </div>
+                <div id="rez"></div>
+            </div>
+            
+            
+
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <p>Создано при поддержке <a href="http://www.rubiconepro.ru">Rubicone</a></p>
+        </div>
+    </footer>
+
+
+</body>
+</html> 

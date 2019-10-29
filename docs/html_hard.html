@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+    <title>Coderror</title>
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <meta charset="utf-8">                                          
+    <link rel="stylesheet" type="text/css" href="style.css">    
+    <script type="text/javascript" src="script.js"></script>        
+</head>
+<body>
+    <div class="NotMobile">
+        <p>Сайт <b>только</b> для компьютеров</p>
+    </div>
+    <header class="header">
+        <div class="header-inner">
+            <div class="logo"><a href="index.html"><img src="img/logo.png"></a></div>
+            <div class="header-p"><p>Проверь свои знания HTML</p></div>
+            <a href="index.html">На главную</a>
+        </div>
+    </header>
+    <main class="main">
+        <div class="vk-logo"><a href="https://vk.com/coderrorops"><img src="img/vk-logo.png"></a></div>
+        
+        <div class="task-bg-grey"></div>
+        <div class="code-bg-grey height_normal1_bg"></div>
+        <div class="main-inner">
+        <div class="task"><p>Найдите ошибочные строчки кода и напишите их верно и по порядку.</p>
+        </div>
+            <div class=" code grey code1">
+                <p>1</p>
+                <pre class="row_2">&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Первый уровень&lt;/title&gt;
+
+    &lt;limk href="external.css" 
+    rel="stylesheet"&gt;
+
+    &lt;scripts src="myjs.js"&gt;&lt;/scripts&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+                <input class ="input" type="text" placeholder="Ответ" id="answer_1_1">
+                <input class ="input" type="text" placeholder="Ответ" id="answer_1_2">
+            </div>
+
+            <div class="code grey code2">
+                <p>2</p>
+                <pre class="row_3">&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Второй уровень&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;dl&gt;
+        &lt;dt&gt;
+            &lt;p&gt;дизайн&lt;/p&gt;
+            &lt;dd&gt;
+                Нам нужен план!
+            &lt;/dt&gt;
+        &lt;/dd&gt; 
+    &lt;/dl&gt;
+&lt;/body&gt;
+&lt;/htmI&gt;
+</pre>
+                <input class="input" type="text" placeholder="Ответ" id="answer_2_1">
+                <input class="input" type="text" placeholder="Ответ" id="answer_2_2">
+                <input class="input" type="text" placeholder="Ответ" id="answer_2_3">
+            </div>
+
+            <div class="height_3 code code3">
+                <p class="grey">3</p>
+                <pre class="height_3">&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Третий уровень&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;detils&gt;
+    &lt;h1&gt;Языки программирования&lt;/h1&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;p&gt;Python&lt;/p&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;p&gt;HTML&lt;/p&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;p&gt;CSS&lt;/p&gt;&lt;/li&gt;
+    &lt;ul&gt;
+    &lt;/detils&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+                <input class="input lite-grey" type="text" placeholder="Ответ" id="answer_3_1">
+                <input class="input lite-grey" type="text" placeholder="Ответ" id="answer_3_2">
+                <input class="input lite-grey" type="text" placeholder="Ответ" id="answer_3_3">
+            </div>
+
+            <div class="height_3 code code4">
+                <p class="grey">4</p>
+                <pre class="height_3">&lt;html&gt;
+&lt;head&gt;
+   &lt;title&gt; Четвертый уровень&lt;/title&gt;
+   &lt;meta charsit="utf-8"&gt; 
+
+   &lt;link rel="shortcuticon"
+   href="logo.ico"&gt;
+
+   &lt;link rel="styleshet" 
+   type="text/css" href="style.css"&gt;
+
+   &lt;script type="text/javascript" 
+   src="style.js"&gt;&lt;/script&gt;
+
+   &lt;script type="text/javascript" 
+   charset="utf-8"src="js/script.js"&gt;
+
+   &lt;/script&gt;
+&lt;/head&gt;
+   &lt;body&gt;
+   &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+                <input class="input lite-grey" type="text" placeholder="Ответ" id="answer_4_1">
+                <input class="input lite-grey" type="text" placeholder="Ответ" id="answer_4_2">
+                <input class="input lite-grey" type="text" placeholder="Ответ" id="answer_4_3">
+            </div>
+
+            <div class="check-bar">
+                <div class="buttons-bar">
+                    <button class="button" onClick="proverit9()">Проверить</button>
+                    <button class="button" onclick="window.location.reload()">Заново</button> 
+                </div>
+                <div id="rez"></div>
+            </div>
+            
+            
+
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <p>Создано при поддержке <a href="http://www.rubiconepro.ru">Rubicone</a></p>
+        </div>
+    </footer>
+
+
+</body>
+</html> 

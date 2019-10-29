@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+    <title>Coderror</title>
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <meta charset="utf-8">                                          
+    <link rel="stylesheet" type="text/css" href="style.css">        
+    <script type="text/javascript" src="script.js"></script>        
+</head>
+<body>
+    <div class="NotMobile">
+        <p>Сайт <b>только</b> для компьютеров</p>
+    </div>
+    <header class="header">
+        <div class="header-inner">
+            <div class="logo"><a href="index.html"><img src="img/logo.png"></a></div>
+            <div class="header-p"><p>Проверь свои знания CSS</p></div>
+            <a href="index.html">На главную</a>
+        </div>
+    </header>
+    <main class="main">
+        <div class="vk-logo"><a href="https://vk.com/coderrorops"><img src="img/vk-logo.png"></a></div>
+
+        <div class="task-bg-grey"></div>
+        <div class="code-bg-grey height_3-4_bg"></div>
+        <div class="main-inner">
+        <div class="task"><p>Найдите ошибочные строчки кода и напишите их верно и по порядку.</p></div>
+            <div class="height_5 code grey code1">
+                <p>1</p>
+                <pre class="height_5">.right-col>h2 {
+    width: 246px;
+    height: 45px;
+    padding-top: 10px;
+    font-size: 22px;
+    border-bottom: 1px sold #265ba1;
+    border-top: 3px #265ba1;
+    margin: 0; 
+    text-align: center;
+    color: #265ba1;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 18px;
+}
+
+.right-col>li{
+    margin-top: 63px; 
+    margin-left: 18px;
+    height: 48px;
+    width: 246px;
+    border: 2px solid #3399ff;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-color: 15px;
+    outline: block;
+    background: #265ba1;
+    text-align: center;
+} 
+</pre>
+                <input class ="input" type="text" placeholder="Ответ" id="answer_1_1">
+                <input class ="input" type="text" placeholder="Ответ" id="answer_1_2">
+                <input class ="input" type="text" placeholder="Ответ" id="answer_1_3">
+            </div>
+
+            <div class="height_5 code grey code2">
+                <p>2</p>
+                <pre class="height_5">@media screen and (max-width:768px){
+li {
+    border: 2px solid #65a2f3;
+    border-radius: 5px;
+    backgraund: #c5daf5;
+    color: #65a2f3;
+    height: 38px;
+    width: 495px;
+    padding: 5px 5px;
+    display: inline-block;
+    outline: none;
+    position: absolute;
+    top: 0px;
+    left: 17px;
+}}
+
+
+media screen and (max-width:480){
+    li a{
+    height: 33px;
+    font-size: 18px;
+    box-shadow: 0 0 8px 1px #265ba1;
+    margin: 0;
+    padding: 8px 2px 1px 2px;
+    text-align: center;
+    color: #265ba1;
+}
+</pre>
+                <input class="input" type="text" placeholder="Ответ" id="answer_2_1">
+                <input class="input" type="text" placeholder="Ответ" id="answer_2_2">
+                <input class="input" type="text" placeholder="Ответ" id="answer_2_3">
+            </div>
+
+            <div class="height_3 code code3 ">
+                <p class="grey">3</p>
+                <pre class="height_3">.search-bar input(type="submit") {
+    height: 38px;
+    width: 52px;
+    border: 2px solid #65a2f3;
+    border-radius: 5px; 
+    background: #c5daf5;
+    s-index: 9;
+    outline: none;
+    display: inline-block;
+    location: absolute;
+    top: 0px;
+    left: 516px;
+    color: #265ba1;
+}
+</pre>
+                <input class="input lite-grey" type="text" placeholder="Ответ" id="answer_3_1">
+                <input class="input lite-grey" type="text" placeholder="Ответ" id="answer_3_2">
+                <input class="input lite-grey" type="text" placeholder="Ответ" id="answer_3_3">
+            </div>
+
+            <div class="height_3 code code4">
+                <p class="grey">4</p>
+                <pre class="height_3">.top-menu-bar: {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: url("images/menu-bar");
+    height: 70px;
+}
+
+.right-col-vidget-bar>ul>li a {
+    display: block;
+    text-decoration: none;
+    padding: 16px 0 0 10px;
+    font-size: 14px;
+    background: #ffffff;
+    color: #3d3d3d;
+    string-height: 14px;
+}
+</pre>
+                <input class="input lite-grey" type="text" placeholder="Ответ" id="answer_4_1">
+                <input class="input lite-grey" type="text" placeholder="Ответ" id="answer_4_2">
+                <input class="input lite-grey" type="text" placeholder="Ответ" id="answer_4_3">
+            </div>
+
+            <div class="check-bar">
+                <div class="buttons-bar">
+                    <button class="button" onClick="proverit6()">Проверить</button>
+                    <button class="button" onclick="window.location.reload()">Заново</button> 
+                </div>
+                <div id="rez"></div>
+            </div>
+            
+            
+
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <p>Создано при поддержке <a href="http://www.rubiconepro.ru">Rubicone</a></p>
+        </div>
+    </footer>
+
+
+</body>
+</html> 
