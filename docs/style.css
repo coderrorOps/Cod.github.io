@@ -18,6 +18,9 @@ display: block;
 
 /*> > > > > > > > > > > > > > > > > > > > > > > > >  additional blocks / Доп блоки  < < < < < < < < < < < < < < < < < < < < < < <*/
 
+ .NotMobile p{                   /* отображение мобильной версии выкл*/
+display: none;
+}
 
 .lang-bg-white {                        /* Белый фон блоков главной страницы*/
     background: #fff;
