@@ -134,7 +134,7 @@ position: relative;
 .main-inner {					/* Основной блок контента*/
 margin: 0 auto;
 position: relative;
-width: 960px;
+max-width: 960px;
 z-index: 0;
 display: block;
 }
@@ -151,8 +151,8 @@ display: block;
 main > .vk-logo  img {   
     position: fixed;
     bottom: 10px;
-    right: 40px
-
+    right: 40px;
+    z-index: 99999;
 }
 
 /* > > > > > > > > > Menu / меню < < < < < < < < < < <*/
