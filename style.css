@@ -16,6 +16,16 @@ border-radius:10px;
 border: 1px solid #2e71f3;
 }
 
+p {
+font-size: 18px;
+color:#000;
+}
+
+p a {
+font-size: 18px;
+color:#000;
+}
+
 .input {
 border-radius: 15px;
 border: 1px solid #2e71f3;
