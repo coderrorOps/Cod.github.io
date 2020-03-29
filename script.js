@@ -12,7 +12,7 @@ alert("   Для удобства использования сайта вы м�
 
 
 function log_in() { 
-var correct_password = "Rubic123";
+var correct_password = "Coderror2020";
   
 var password = document.getElementById("pass").value;
   
