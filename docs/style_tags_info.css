@@ -1,0 +1,54 @@
+/* Тут код стилей для html */
+
+* {						/* Для всей странице по умолчанию подключаем margin и padding равные нулю */
+padding: 0px;
+margin: 0px;
+}
+
+html, body {			/* Для всей странице по умолчанию подключаем шрифт, высоту и цвет фона */ 
+font-family: "Segoe UI", Arial, sans-serif;
+height: 100%;
+background: #ffffff; /* фон страницы белый */
+padding: 2% 4%;
+}
+
+header, main, nav, article, aside, section, footer {	/* Для тегов ставтим состояние блок */
+display: block;
+}
+
+.p-p {
+    width: 47%;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.tags1 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.tags2 {
+    border: 1px solid #969696;
+}
+
+.mg-btm {
+    margin-bottom: 20px;
+}
+
+.img-ex {
+    vertical-align: bottom;
+}
+
+.tags2 div {
+    border: 1px solid #969696;
+    margin: 1%;
+}
+
+.tags1 #color {
+    width: 100%;
+    background: #7fff16;
+    height: 20px;
+}
