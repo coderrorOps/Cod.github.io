@@ -626,7 +626,7 @@ function proverit7() {
 
     var rigright_answerswer1 = "<h1>Hello world</h1>";
     var rigright_answerswer2 = "<h1><b>привет</b></h1>";
-    var rigright_answerswer3 = "<h1 align=”center”>Привет мир</h1>";
+    var rigright_answerswer3 = '<h1 align="center">Привет мир</h1>';
     var rigright_answerswer4 = "<h1><q>Человек должен мечтать.</q></h1>";
 
     var user_answer1 = document.getElementById("answer_1").value;
